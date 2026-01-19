@@ -1,0 +1,140 @@
+/* ===============================
+   GLOBAL STYLES
+================================ */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding-top: 70px;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #ffffff;
+  color: #333;
+}
+
+.section {
+  padding: 90px 0;
+}
+
+h2 {
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* ===============================
+   HOME SECTION
+================================ */
+
+.home-section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+}
+
+.home-section span {
+  color: #ffd700;
+}
+
+.intro-text {
+  max-width: 750px;
+  margin: 20px auto;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+#skills {
+  background: linear-gradient(135deg, #fdfbfb, #ebedee);
+}
+
+.skill-box {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  font-size: 18px;
+  padding: 25px;
+  margin: 15px 0;
+  border-radius: 16px;
+  font-weight: 600;
+  box-shadow: 0 12px 28px rgba(102, 126, 234, 0.35);
+  transition: all 0.3s ease;
+}
+
+.skill-box:hover {
+  transform: translateY(-8px) scale(1.04);
+  box-shadow: 0 22px 45px rgba(118, 75, 162, 0.5);
+}
+
+#projects {
+  background: linear-gradient(135deg, #eef2ff, #f9f9ff);
+}
+
+#projects .card {
+  border: none;
+  border-radius: 22px;
+  padding: 35px;
+  background: white;
+  box-shadow: 0 20px 45px rgba(102, 126, 234, 0.25);
+  position: relative;
+  overflow: hidden;
+  transition: 0.35s ease;
+}
+
+#projects .card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 6px;
+  width: 100%;
+  background: linear-gradient(
+    to right,
+    #667eea,
+    #764ba2,
+    #ff758c
+  );
+}
+
+#projects .card:hover {
+  transform: translateY(-12px);
+  box-shadow: 0 32px 65px rgba(118, 75, 162, 0.45);
+}
+
+#projects .card-title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #2f2f2f;
+  margin-bottom: 12px;
+}
+
+#projects .card-text {
+  font-size: 17px;
+  line-height: 1.8;
+  color: #555;
+}
+
+#contact {
+  background: #ffffff;
+}
+
+#contact input,
+#contact textarea {
+  border-radius: 12px;
+  padding: 14px;
+  border: 1px solid #ccc;
+}
+
+#contact button {
+  border-radius: 12px;
+  padding: 14px;
+  font-weight: bold;
+}
+
+footer {
+  font-size: 14px;
+}
+
+
